@@ -17,7 +17,7 @@ public:
     void SetInteger (int intg){integer=intg;}
     
     Fraction() { numerator = 0; denomerator = 0; }
-    Fraction(int num, int denom)
+    Fraction(int num, int denom, int intg)
     {
         numerator = num;
         denomerator = denom;
