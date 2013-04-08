@@ -138,8 +138,18 @@ void Fraction::ReduceByGreatestDenominator()
 }
  int Fraction::CommonToProperFraction()
  double a;
- if (num>denom)
- {num%denom=a;
- (num-a)/denom=intg;
-  num=num/a
- 
+ int y = denomerator;
+ int x = numerator;
+ if (x>y)
+ {x%y=a;
+ intg=(x-a)/y;
+ return intg, a;
+}
+  int Fraction::CommonToImproperFraction()
+ {  int y = denomerator;
+   int x = numerator;
+  if(intg!=0)
+{x=intg*y+x;}
+return x, y;
+else
+return x,y;}
