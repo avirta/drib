@@ -90,5 +90,5 @@ int main(int argc, char *argv[])
 {
         int num = 1;
         int denom = 3;
-     
-     Fraction A = Fraction (num, denom)
+}
+
