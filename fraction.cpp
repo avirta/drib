@@ -90,5 +90,6 @@ int main(int argc, char *argv[])
 {
         int num = 1;
         int denom = 3;
+printf("%d/%d", num, denom);
+     scanf("%d/%d");
 }
-
